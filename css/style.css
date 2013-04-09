@@ -1,0 +1,69 @@
+body { font:normal 14px Georgia, Tahoma, Geneva, sans-serif; width: 810px; margin : 0 auto;}
+#header { 
+	
+	width:inherit;
+	height: 169px;
+	background: url(../images/header1.png) 0 0 no-repeat;
+	text-align:right;
+	float:left;
+}
+.clear{
+	clear:both;
+}
+#body { 
+width:inherit;
+height: auto;
+float:left;
+margin: 0px 53px; 
+}
+#body #title{
+width:inherit;
+height: auto;
+float:left;	
+}
+#body h1{
+	font-size: 30px;
+	color: #2b1d13;
+	font-weight:700;
+	font-family: Georgia;
+}
+#body .content{
+width:inherit;
+height: auto;
+float:left;	
+}
+#body .image{
+	width: 216px;
+	height:141px;
+	overflow:hidden;
+	float:left;
+}
+#body .text{
+	width: 468px;
+	height: auto;
+	margin-left:20px;
+	float:left;
+}
+#body .text h2{
+	font-size: 17px;
+	line-height: 12px;
+}
+#body .text .data{
+	font-weight: 700;
+}
+
+#body .text .button{
+	width:122px;
+	height: 26px;
+	background: url(/images/button.png) 0 0 no-repeat;
+}
+/*#header h1{
+	font-family: Georgia;
+	font-size: 44px;
+	width:500px;
+	text-align:right;
+	margin-left:200px;
+	color: #543817;
+	
+	
+}*/
