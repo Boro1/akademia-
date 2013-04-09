@@ -57,6 +57,14 @@ float:left;
 	height: 26px;
 	background: url(/images/button.png) 0 0 no-repeat;
 }
+
+.image {
+	margin-bottom: 30px;
+}
+
+.text {
+	font-family: Georgia;
+}
 /*#header h1{
 	font-family: Georgia;
 	font-size: 44px;
