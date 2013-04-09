@@ -26,6 +26,7 @@ float:left;
 	color: #2b1d13;
 	font-weight:700;
 	font-family: Georgia;
+	color: #543817;
 }
 #body .content{
 width:inherit;
@@ -64,7 +65,31 @@ float:left;
 
 .text {
 	font-family: Georgia;
+	color: #543817;
 }
+
+.link-more {
+	background-color: #d3bca9;
+	height: 20px; 
+	width: 120px;
+	float: right;
+	margin-top: 10px;
+
+	padding-top: 5px;
+
+}
+
+.link-more a {
+
+	text-decoration: none;
+	margin: 0 auto;
+	font-family: Times New Roman;
+	color: #000;
+
+
+	margin-left: 10px;
+}
+
 /*#header h1{
 	font-family: Georgia;
 	font-size: 44px;
@@ -72,6 +97,4 @@ float:left;
 	text-align:right;
 	margin-left:200px;
 	color: #543817;
-	
-	
 }*/
