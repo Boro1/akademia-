@@ -124,6 +124,32 @@ margin-top: 15px;
 	margin-top: 22px;
 }
 
+.text-col1 {
+	width: 265px; 
+	float: left;
+	margin-left: 25px;
+	color: #828282;
+	font-size: 10px;
+	padding-right: 28px;
+	padding-top: 5px;
+	border-right: 2px solid #413e3c;
+}
+
+.text-col1 a {
+	color: #d5c2b2;
+	float: right;
+}
+
+.text-col2 {
+	width: 205px; 
+	float: right;
+	margin-left: 25px;
+	color: #828282;
+	font-size: 10px;
+	padding-right: 28px;
+	padding-top: 5px;
+	border-right: 2px solid #413e3c;
+}
 /*#header h1{
 	font-family: Georgia;
 	font-size: 44px;
