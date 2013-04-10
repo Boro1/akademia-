@@ -14,18 +14,26 @@ body { font:normal 14px Georgia, Tahoma, Geneva, sans-serif; width: 810px; margi
 width:inherit;
 height: auto;
 float:left;
-margin: 0px 53px; 
+
 }
+
+#main-content {
+	margin: 0px 53px; 
+	margin-bottom: 30px;
+}
+
 #body #title{
 width:inherit;
 height: auto;
 float:left;	
+margin-bottom: 20px;
 }
 #body h1{
 	font-size: 30px;
 	color: #2b1d13;
 	font-weight:700;
 	font-family: Georgia;
+	color: #543817;
 }
 #body .content{
 width:inherit;
@@ -43,6 +51,7 @@ float:left;
 	height: auto;
 	margin-left:20px;
 	float:left;
+	position: relative;
 }
 #body .text h2{
 	font-size: 17px;
@@ -57,6 +66,96 @@ float:left;
 	height: 26px;
 	background: url(/images/button.png) 0 0 no-repeat;
 }
+
+.image {
+	margin-bottom: 30px;
+}
+
+.text {
+	font-family: Georgia;
+	color: #543817;
+}
+
+.link-more {
+	background-color: #d3bca9;
+	height: 20px; 
+	width: 120px;
+	float: right;
+	margin-top: 36px;
+
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-align:center;
+}
+
+
+.link-more a {
+	text-decoration: none;
+	margin: 0 auto;
+	color: #000;
+	font-size:11px;
+	
+	line-height:8px;
+}
+
+.decoration { 
+margin-top: 20px;
+}
+
+.foot {
+	
+	width: inherit;
+	background-color: #190f06; 
+	border-top: 10px solid #f0f0f0; 
+	height: 150px;
+	float:left;
+	margin-top: 0px;
+}
+
+.image-footer img {
+	position: relative;
+	margin: 25px 53px;
+	float: left;
+}
+
+.linki a {
+	float: left;
+	color: #d5c2b2;
+	text-decoration: none;
+	font-size: 10px;
+	padding-right: 5px;
+	margin-top: 22px;
+	font-family:Georgia;
+}
+
+.text-col1 {
+	width: 265px; 
+	float: left;
+	margin-left: 0px;
+	margin-top:15px;
+	color: #828282;
+	font-size: 10px;
+	padding-right: 41px;
+	padding-top: 0px;
+	border-right: 2px solid #413e3c;
+}
+
+.text-col1 a {
+	color: #d5c2b2;
+	float: right;
+}
+
+.text-col2 {
+	width: 205px; 
+	float: right;
+	margin-left: 25px;
+	margin-top:15px;
+	color: #828282;
+	font-size: 10px;
+	padding-right: 28px;
+	padding-top: 0px;
+	border-right: 2px solid #413e3c;
+}
 /*#header h1{
 	font-family: Georgia;
 	font-size: 44px;
@@ -64,6 +163,4 @@ float:left;
 	text-align:right;
 	margin-left:200px;
 	color: #543817;
-	
-	
 }*/
