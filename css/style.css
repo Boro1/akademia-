@@ -14,12 +14,19 @@ body { font:normal 14px Georgia, Tahoma, Geneva, sans-serif; width: 810px; margi
 width:inherit;
 height: auto;
 float:left;
-margin: 0px 53px; 
+
 }
+
+#main-content {
+	margin: 0px 53px; 
+	margin-bottom: 100px;
+}
+
 #body #title{
 width:inherit;
 height: auto;
 float:left;	
+margin-bottom: 20px;
 }
 #body h1{
 	font-size: 30px;
@@ -44,6 +51,7 @@ float:left;
 	height: auto;
 	margin-left:20px;
 	float:left;
+	position: relative;
 }
 #body .text h2{
 	font-size: 17px;
@@ -80,18 +88,40 @@ float:left;
 }
 
 .link-more a {
-
 	text-decoration: none;
 	margin: 0 auto;
-	font-family: Times New Roman;
 	color: #000;
-
 
 	margin-left: 10px;
 }
 
 .decoration { 
 margin-top: 15px;
+}
+
+.foot {
+	position: absolute;
+	width: 810px;
+	background-color: #190f06; 
+	border-top: 10px solid #f0f0f0; 
+	height: 150px;
+	Bottom: 0;
+	margin-top: 100px;
+}
+
+.image-footer img {
+	position: relative;
+	margin: 25px 53px;
+	float: left;
+}
+
+.linki a {
+	float: left;
+	color: #d5c2b2;
+	text-decoration: none;
+	font-size: 11px;
+	padding-right: 5px;
+	margin-top: 22px;
 }
 
 /*#header h1{
